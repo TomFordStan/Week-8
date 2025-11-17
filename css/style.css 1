@@ -1,0 +1,5 @@
+body {
+    background: #f7f7f7;
+    color: #3333;
+    font-family: "Cabin", sans-serif;
+}
