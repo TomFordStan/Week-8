@@ -76,7 +76,7 @@ a:hover {
 }
 
 #logo {
-    font-size: 2rem;
+    font-size: 200px;
     color:rgb(255, 255, 255);
     font-family: "Cabin", sans-serif;
     font-weight: 600;
@@ -121,6 +121,6 @@ footer {
 }
 
 .light {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(156, 156, 156);
     padding: 3rem 0;
 }
