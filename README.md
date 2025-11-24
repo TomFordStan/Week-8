@@ -3,3 +3,5 @@
 [Version 1](https://github.com/TomFordStan/Week-8/blob/gh-pages/index.html)
 
 [Version 2](https://github.com/TomFordStan/Week-8/blob/gh-pages/index2.html)
+
+[Version 3](https://github.com/TomFordStan/Week-8/blob/gh-pages/index2%20-%20Copy.html)
