@@ -1,0 +1,126 @@
+body {
+    background: #dcdfe4;
+    color: rgb(35, 35, 35);
+    font-family: "Cabin", sans-serif;
+    font-weight: 300;
+}
+
+section, header {
+    width: 80%;
+    max-width: 600px;
+    margin:auto;
+}
+
+section, header {
+    margin-bottom: 4rem;
+
+}
+
+header h1, h2 {
+     font-family: "Trocchi", serif;
+     margin: 5rem 0 1rem 0;
+}
+
+h1 {
+    font-size: 5.960rem;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 1.930rem;
+    color: rgb(127, 55, 0);
+}
+
+h3 {
+    font-family: "Trocchi", serif;
+    font-size: 2.000rem;
+    line-height: 0.01;
+    color: rgb(35, 35, 35);
+}
+
+p {
+    line-height:1.6;
+    font-size: 0.9rem;
+}
+
+blockquote {
+    font-family: "Hurricane", cursive;
+    font-size: 1.220rem;
+    color: rgb(0, 0, 0);
+    max-width: 500px;
+    padding: 0.1rem 0;
+    text-indent: -0.6rem;
+}
+
+/*-- Styling links --*/
+
+a {
+    color:rgb(199, 86, 0);
+    text-decoration: none;
+    border-bottom: 2px dotted;
+    font-weight: bold;
+}
+
+a:hover {
+    color:rgb(239, 129, 46)
+}
+
+/*-- Navigation --*/
+
+.responsivenav{
+    background: rgb(35, 35, 35);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 2rem;
+    color:rgb(255, 255, 255);
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    padding-left: 35px;
+}
+
+nav {
+    display: flex;
+    padding:1.5rem 0;
+
+}
+
+nav ul {
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
+nav a {
+    border-bottom: none;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+}
+
+nav a hover {
+    color:rgb(199, 86, 0);
+    transition: all 0.3s ease-in;
+}
+
+/*-- Styling the footer --*/
+
+footer {
+    background: rgb(35, 35, 35);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1rem 0
+}
+
+.light {
+    background-color: rgb(156, 156, 156);
+    padding: 3rem 0;
+}
