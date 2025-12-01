@@ -27,13 +27,13 @@ h1 {
 }
 
 h2 {
-    font-size: 1.930rem;
+    font-size: 2.460rem;
     color: rgb(127, 55, 0);
 }
 
 h3 {
     font-family: "Trocchi", serif;
-    font-size: 2.000rem;
+    font-size: 1.500rem;
     line-height: 0.01;
     color: rgb(35, 35, 35);
 }
@@ -50,6 +50,10 @@ blockquote {
     max-width: 500px;
     padding: 0.1rem 0;
     text-indent: -0.6rem;
+}
+
+hr {
+    margin: 2rem 0 1.5rem 0;
 }
 
 /*-- Styling links --*/
@@ -121,6 +125,25 @@ footer {
 }
 
 .light {
-    background-color: rgb(156, 156, 156);
+    background-color: rgb(174, 189, 197);
     padding: 3rem 0;
+}
+
+/*-- Adding responsive element to images --*/
+
+.gridimage{
+    display:grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+/*-- Adding media quarters --*/
+
+@media (max-width: 600px);
+header h1 {
+ font-size: 4rem; 
+}
+
+.gridimage {
+    row-gap: 10px;
 }
