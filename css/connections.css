@@ -28,9 +28,9 @@
         margin: 1em auto;}
   
   .connections a:hover svg path {
-        fill: rgb(199, 86, 0);
+        fill: rgb(232, 116, 28);
         transition: all 0.3s ease-in-out;}
   
   footer .connections a:hover svg path {
-          fill:  rgb(199, 86, 0);
+          fill:  rgb(1232, 116, 28);
           transition: all 0.3s ease-in-out;}

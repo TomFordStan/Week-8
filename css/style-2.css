@@ -139,11 +139,20 @@ footer {
 
 /*-- Adding media quarters --*/
 
-@media (max-width: 600px);
-header h1 {
- font-size: 4rem; 
+.gridimage {
+    row-gap: 10px;
+}
+
+@media (max-width: 600px) {
+header, h1 {
+    font-size: 4rem;
+}
+
+.intro h2 {
+    font-size: 1.5rem;
 }
 
 .gridimage {
     row-gap: 10px;
+}
 }
